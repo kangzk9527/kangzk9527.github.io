@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>汇编学习记录</title>
+      <link href="/2023/12/07/%E6%B1%87%E7%BC%96%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+      <url>/2023/12/07/%E6%B1%87%E7%BC%96%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</url>
+      
+        <content type="html"><![CDATA[<h2 id="十一·CALL框架"><a href="#十一·CALL框架" class="headerlink" title="十一·CALL框架"></a>十一·CALL框架</h2><pre><code>   EBP 寄存器 栈底指针   ESP 寄存器 栈顶指针</code></pre><h3 id="1-EBP栈底指针"><a href="#1-EBP栈底指针" class="headerlink" title="1.EBP栈底指针"></a>1.EBP栈底指针</h3><pre><code>   EBP是一个特殊的寄存器，通过EBP+偏移量 可以访问CALL里边的局部变量   它的低16位叫BP。   //EAX和AX的关系     </code></pre><h3 id="2-ESP栈顶指针"><a href="#2-ESP栈顶指针" class="headerlink" title="2.ESP栈顶指针"></a>2.ESP栈顶指针</h3><pre><code>   ESP栈顶指针与EBP栈底指针构成一段空间大小，一般就是本CALL局部变量的空间大小总和。ESP指针配合EBP使用。//SP </code></pre><h3 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h3><pre><code>      （1）每个CALL会分配一个独立的栈段空间，供局部变量使用      （2）CALL栈平衡。进入CALL前与出CALL后，EBP和ESP的值不变</code></pre>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>这是我的第一篇文章</title>
       <link href="/2023/11/28/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
       <url>/2023/11/28/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
